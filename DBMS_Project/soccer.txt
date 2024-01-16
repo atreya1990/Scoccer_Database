@@ -1,0 +1,84 @@
+
+insert into tournaments_player_played (tournaments_player_id, tournament_name,date,tournament_won) values('2','Bundesliga','7/22/1999','TRUE');
+insert into tournaments_player_played (tournaments_player_id, tournament_name,date,tournament_won) values('3','Primera Division','11/9/2005','TRUE');
+insert into tournaments_player_played (tournaments_player_id, tournament_name,date,tournament_won) values('4','Ligue 1','08/25/2012','FALSE');
+insert into tournaments_player_played (tournaments_player_id, tournament_name,date,tournament_won) values('5','La Ligue','11/11/2017','FALSE');
+
+
+
+
+
+insert into trophies_won (trophy_id,trophy_name,date,player_stats_id) values('1','Campeonato Brasileiro trophy','5/7/1997','1');
+insert into trophies_won (trophy_id,trophy_name,date,player_stats_id) values('2','Bundesliga trophy','7/22/1999','2');
+insert into trophies_won (trophy_id,trophy_name,date,player_stats_id) values('3','Primera División trophy','11/9/2005','3');
+insert into trophies_won (trophy_id,trophy_name,date,player_stats_id) values('4','Ligue 1 trophy','08/25/2012','4');
+insert into trophies_won (trophy_id,trophy_name,date,player_stats_id) values('5','LaLiga trophy','11/11/2017','5');
+
+
+
+insert into player (player_id,first_name,last_name,city_name,team_name) values('1','Neymar','Jr','rio de janeiro','Palmeiras Brazil');
+insert into player (player_id,first_name,last_name,city_name,team_name) values('2','Bastian','Schweinsteiger','dortmund','Bayern Munich');
+insert into player (player_id,first_name,last_name,city_name,team_name) values('3','Lionel','Messi','buenos aires','Boca Juniors');
+insert into player (player_id,first_name,last_name,city_name,team_name) values('4','kylian','mbappe','paris','PSG');
+insert into player (player_id,first_name,last_name,city_name,team_name) values('5','Fernando','Torres','barcelona','barcelona');
+
+
+insert into player_matches (player_matches_id,goals_scored,date,team_name,quantity,player_stats_id) values('1','1023','7/5/1997','Palmeiras Brazil','234','1');
+insert into player_matches (player_matches_id,goals_scored,date,team_name,quantity,player_stats_id) values('2','1145','07/22/1999','Bayern Munich','234','2');
+insert into player_matches (player_matches_id,goals_scored,date,team_name,quantity,player_stats_id) values('3','1267','11/9/2005','Boca Juniors','533','3');
+insert into player_matches (player_matches_id,goals_scored,date,team_name,quantity,player_stats_id) values('4','1254','08/25/2012','PSG','254','4');
+insert into player_matches (player_matches_id,goals_scored,date,team_name,quantity,player_stats_id) values('5','5210','11/11/2017','Barcelona','453','5');
+
+
+insert into player_stats (player_stats_id,player_id,substituted_out,cleansheets,assists,own_goals,red_cards,passes_completed,yellow_cards,goals_scored,substituted_in,tackles_completed) values('1','1','10','7','23','1','4','256','12','78','5','18');
+insert into player_stats (player_stats_id,player_id,substituted_out,cleansheets,assists,own_goals,red_cards,passes_completed,yellow_cards,goals_scored,substituted_in,tackles_completed) values('2','2','11','8','24','2','5','257','13','79','6','19');
+insert into player_stats (player_stats_id,player_id,substituted_out,cleansheets,assists,own_goals,red_cards,passes_completed,yellow_cards,goals_scored,substituted_in,tackles_completed) values('3','3','12','9','25','3','6','258','14','80','7','20');
+insert into player_stats (player_stats_id,player_id,substituted_out,cleansheets,assists,own_goals,red_cards,passes_completed,yellow_cards,goals_scored,substituted_in,tackles_completed) values('4','4','13','10','26','4','7','259','15','81','8','21');
+insert into player_stats (player_stats_id,player_id,substituted_out,cleansheets,assists,own_goals,red_cards,passes_completed,yellow_cards,goals_scored,substituted_in,tackles_completed) values('5','5','14','11','27','5','8','260','16','82','9','22');
+
+
+insert into soccer_team (soccer_team_id,team_name,owner,coach_name,venue_id) values ('1','Palmeiras Brazil','Leila Pereira','Luiz Felipe Scolari','1');
+insert into soccer_team (soccer_team_id,team_name,owner,coach_name,venue_id) values ('2','Bayern Munich','Oliver Kahn','Julian Nagelsmann','2');
+insert into soccer_team (soccer_team_id,team_name,owner,coach_name,venue_id) values ('3','Boca Juniors','Jorge Amor Ameal','Hugo Ibarra','3');
+insert into soccer_team (soccer_team_id,team_name,owner,coach_name,venue_id) values ('4','PSG','Nasser Al-Khelaïfi','Mauricio Pochettino','4');
+insert into soccer_team (soccer_team_id,team_name,owner,coach_name,venue_id) values ('5','Barcelona','Florentino Pérez','Carlo Ancelotti','5');
+
+
+insert into soccer_team_stats (soccer_team_stats_id,soccer_team_id) values ('1','1');
+insert into soccer_team_stats (soccer_team_stats_id,soccer_team_id) values ('2','2');
+insert into soccer_team_stats (soccer_team_stats_id,soccer_team_id) values ('3','3');
+insert into soccer_team_stats (soccer_team_stats_id,soccer_team_id) values ('4','4');
+insert into soccer_team_stats (soccer_team_stats_id,soccer_team_id) values ('5','5');
+
+
+insert into soccer_venue (venue_id,city_name,venue_name) values ('1','rio de janeiro','Signal Iduna Park');
+insert into soccer_venue (venue_id,city_name,venue_name) values ('2','dortmund','Maracanã Stadium');
+insert into soccer_venue (venue_id,city_name,venue_name) values ('3','buenos aires','Alberto José Armando');
+insert into soccer_venue (venue_id,city_name,venue_name) values ('4','paris','Le Parc des Princes');
+insert into soccer_venue (venue_id,city_name,venue_name) values ('5','barcelona','Camp Nou');
+
+
+insert into tournaments_player_played (tournaments_player_id,tournament_name,date,tournament_won) values ('1','Campeonato Brasileiro','7/5/1997','TRUE');
+insert into tournaments_player_played (tournaments_player_id,tournament_name,date,tournament_won) values ('2','Bundesliga','07/22/1999','TRUE');
+insert into tournaments_player_played (tournaments_player_id,tournament_name,date,tournament_won) values ('3','Primera División','11/9/2005','TRUE');
+insert into tournaments_player_played (tournaments_player_id,tournament_name,date,tournament_won) values ('4','Ligue 1','08/25/2012','FALSE');
+insert into tournaments_player_played (tournaments_player_id,tournament_name,date,tournament_won) values ('5','LaLiga','11/11/2017','FALSE');
+
+
+insert into team_matches(team_matches_id,matches_drawn,matches_won,matches_lost,score,tournaments_played,soccer_team_stats_id) values('1','223','123','45','456','17','1');
+insert into team_matches(team_matches_id,matches_drawn,matches_won,matches_lost,score,tournaments_played,soccer_team_stats_id) values('2','224','124','46','457','18','2');
+insert into team_matches(team_matches_id,matches_drawn,matches_won,matches_lost,score,tournaments_played,soccer_team_stats_id) values('3','225','125','47','458','19','3');
+insert into team_matches(team_matches_id,matches_drawn,matches_won,matches_lost,score,tournaments_played,soccer_team_stats_id) values('4','226','126','48','459','20','4');
+insert into team_matches(team_matches_id,matches_drawn,matches_won,matches_lost,score,tournaments_played,soccer_team_stats_id) values('5','227','127','49','460','21','5');
+
+
+
+INSERT INTO managed_by_history (managed_by_id,date, coach_name, soccer_team_stats_id) VALUES ('1',23/09/2019,'Gregg Berhalter', '1');
+
+INSERT INTO managed_by_history (managed_by_id,date, coach_name, soccer_team_stats_id) VALUES ('2',19/03/2017,'Steve Sampson', '2');
+
+INSERT INTO managed_by_history (managed_by_id,date, coach_name, soccer_team_stats_id) VALUES ('3',13/12/2018,'Granham Arnold', '3');
+
+INSERT INTO managed_by_history (managed_by_id,date, coach_name, soccer_team_stats_id) VALUES ('4',03/04/2010,'Jill Ellis', '4');
+
+INSERT INTO managed_by_history (managed_by_id,date, coach_name, soccer_team_stats_id) VALUES ('5',28/06/2020,'Tony DiCicco', '5')
